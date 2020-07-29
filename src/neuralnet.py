@@ -69,8 +69,8 @@ example = np.array([[1, 1, 0]])
 example_2 = np.array([[0, 1, 1]])
 
 # print the predictions for both examples
-print(NN.predict(example)), ' - Correct: ', example[0][0])
-print(NN.predict(example_2)), ' - Correct: ', example_2[0][0])
+print(NN.predict(example), ' - Correct: ', example[0][0])
+print(NN.predict(example_2), ' - Correct: ', example_2[0][0])
 
 # plot the error over the entire training duration
 plt.figure(figsize=(15,5))
