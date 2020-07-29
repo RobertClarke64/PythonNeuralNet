@@ -74,7 +74,7 @@ print(NN.predict(example_2), ' - Correct: ', example_2[0][0])
 
 # plot the error over the entire training duration
 plt.figure(figsize=(15,5))
-plt.plot(NN.epoch_list, Nn.error_history)
+plt.plot(NN.epoch_list, NN.error_history)
 plt.xlabel('Epoch')
 plt.ylabel('Error')
 plt.show()
